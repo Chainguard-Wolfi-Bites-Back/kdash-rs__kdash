@@ -98,7 +98,7 @@ Try out kdash via `nix run nixpkgs#kdash` or add `kdash` to your
 
 ### Install script
 
-Run the below command to install the latest binary. Run with sudo if you don't have write access to `/usr/local/bin`. Else the script will install to the current directory
+Run the below command to install the latest binary. Run with sudo if you don't have write access to `/usr/local/bin`. Else the script will install to the current directory. Alternatively, set `BIN_DIR` environment variable e.g. `BIN_DIR=~/.local/bin` to override the default install location.
 
 ```sh
 curl https://raw.githubusercontent.com/kdash-rs/kdash/main/deployment/getLatest.sh | bash
