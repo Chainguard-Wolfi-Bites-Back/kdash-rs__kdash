@@ -10,7 +10,7 @@
 GITHUB_REPO="kdash"
 GITHUB_USER="kdash-rs"
 EXE_FILENAME="kdash"
-EXE_DEST_DIR=${BIN_DIR:-"/usr/local/bin"}
+EXE_DEST_DIR="${BIN_DIR:-/usr/local/bin}"
 
 bye() {
     result=$?
